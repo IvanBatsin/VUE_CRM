@@ -34,6 +34,12 @@ import PaginationMixin from '../mixins/pagination.mixin';
 export default {
   name: 'history',
 
+  metaInfo(){
+    return {
+      title: this.$title('History')
+    }
+  },
+
   data(){
     return {
       loading: true,

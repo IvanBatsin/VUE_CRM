@@ -82,6 +82,12 @@ import { mapGetters } from 'vuex';
 export default {
   name: 'Record',
 
+  metaInfo(){
+    return {
+      title: this.$title('Record')
+    }
+  },
+
   data() {
     return {
       select: null,

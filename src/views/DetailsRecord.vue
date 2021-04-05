@@ -29,6 +29,12 @@
 export default {
   name: 'recordDetails',
 
+  metaInfo(){
+    return {
+      title: this.$title('Details')
+    }
+  },
+
   data(){
     return {
       loading: true,

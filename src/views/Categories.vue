@@ -28,6 +28,12 @@ import EditCategory from '../components/EditCategory';
 export default {
   name: "categories",
 
+  metaInfo(){
+    return {
+      title: this.$title('Categories')
+    }
+  },
+
   data(){
     return {
       categories: [],
